@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @design.name %>
+</p>
+
+<p>
+  <strong>Phone:</strong>
+  <%= @design.phone %>
+</p>
+
+<p>
+  <strong>Email:</strong>
+  <%= @design.email %>
+</p>
+
+<p>
+  <strong>Order:</strong>
+  <%= @design.order %>
+</p>
+
+<p>
+  <strong>Deadline:</strong>
+  <%= @design.deadline %>
+</p>
+
+<%= link_to 'Edit', edit_design_path(@design) %> |
+<%= link_to 'Back', designs_path %>
