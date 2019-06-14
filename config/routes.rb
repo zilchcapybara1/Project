@@ -3,6 +3,7 @@ Rails.application.routes.draw do
   resources :users
  	resources :designs
 	resources :works
+	resources :me
 
 root to: "pages#index"
 
